@@ -1,0 +1,19 @@
+/* a) zwykły akapit */
+p {
+    color: red;
+    font-size: 22pt;
+}
+
+/* b) ID gruby */
+#gruby_kopacz {
+    color: green;
+    font-size: 17pt;
+    font-weight: bold;
+}
+
+/* c) ID dla wszystkich */
+#dlawszyskich_kopacz {
+    color: yellow;
+    font-size: 10pt;
+    font-family: Arial;
+}
