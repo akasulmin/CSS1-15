@@ -28,7 +28,7 @@ h2 {
  padding : 30px;
  margin-right : 10px;
  border : 7px double black;
- background : rgb(250.128.114);
+ background : rgb(250,128,114);
  font-size : 16px;
 }
 h3 {
@@ -37,6 +37,6 @@ h3 {
  padding : 20px;
  margin-left : 450px;
  border : 10px dotted purple;
- background : rgb(240.230.140);
+ background : rgb(240,230,140);
  font-size : 16px;
 }
