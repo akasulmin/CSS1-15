@@ -1,0 +1,60 @@
+<html>
+<head>
+<title>Z64_html </title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<style>
+ 
+</style>
+</head>
+<body>
+
+   <table border="1" width="50%">
+ <thead>
+    <tr>
+      <th colspan="2">Zaokrąglanie narożników obszarów bloków np. DIV</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td width=40%>Zaokrąglenie górnego-lewego narożnika:</td>
+      <td width=60%>selektor { border-top-left-radius: zaokrąglenie }</td>
+    </tr>
+    <tr>
+      <td width=40%>Zaokrąglenie górnego-prawego narożnika:</td>
+      <td width=60%>selektor { border-top-right-radius: zaokrąglenie } </td>
+    
+    </tr>
+     <tr>
+      <td width=40%>Zaokrąglenie dolnego-prawego narożnika:</td>
+      <td width=60%>selektor { border-bottom-right-radius: zaokrąglenie } </td>
+    </tr>
+    <tr>
+      <td width=40%>Zaokrąglenie dolnego-lewego narożnika:</td>
+      <td width=60%>selektor { border-bottom-left-radius: zaokrąglenie }</td>
+    </tr>
+  </tbody>
+</table> 
+<u> Zastosowanie:</u><br>
+ We wszystkich przypadkach selektorem może być dowolny znacznik, np. 
+
+ <ul type="circle">
+    <li>p – akapit</li>
+    <li>h1 –nagłówek</li>
+    <li>div –blok</li>
+ </ul>
+Natomiast "zaokrąglenie" określa promień wyrażony w jednostkach długości albo w<br>
+procentach (względem obszaru obramowania - zobacz: Model pudełkowy). Możliwe jest tutaj podane:<br>
+ <ul type="circle">
+    <li>jednej wartości - zaokrąglenie symetryczne</li>
+    <li>dwóch wartości - pierwsza określa poziomy promień ćwiartki elipsy zaokrąglenia, druga - pionowy</li>
+    </ul>
+    Zaokrąglone narożniki to bardzo ciekawy efekt wizualny, który może zwiększyć estetykę
+strony. Co ciekawe, element wcale nie musi mieć obramowania, aby miał zaokrąglone
+narożniki. Wystarczy jeśli będzie miał ustalone jakieś tło, aby efekt był widoczny na ekranie.
+Ale uwaga: tekst wewnątrz elementu nie zostanie zawinięty do zaokrąglonych rogów. Jeśli
+promień zaokrąglenia będzie zbyt duży, tekst wyjdzie na zewnątrz.<br>
+Przykład:
+border-top-right-radius: 10px
+
+    </body>
+    </html>
