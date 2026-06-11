@@ -1,0 +1,6 @@
+div#blok1_Kopacz:hover {background-color: gold;width:614px;font-size:20mm}
+ div#blok2_Kopacz:hover {background-color: silver;width:614px;font-size:20mm}
+ div#blok3_Kopacz:hover {background-color: blue;width:614px;font-size:20mm}
+div#blok1_Kopacz{background-color: green;width:614px;}
+div#blok2_Kopacz{background-color: green;width:614px;}
+div#blok3_Kopacz{background-color: green;width:614px;}
