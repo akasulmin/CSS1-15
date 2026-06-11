@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<title>Z66_html</title>
+</head>
+
+<body>
+
+
+<h1>Pseudoelement :first-line</h1>
+
+<p>
+Pseudoelement <b>:first-line</b> pozwala formatować tylko pierwszy wiersz tekstu
+znajdującego się w akapicie lub innym elemencie blokowym.
+Można zmieniać między innymi kolor, rodzaj i wielkość czcionki.
+</p>
+
+<div style="border:1px solid black; padding:10px;">
+Przykład:<br><br>
+
+:first-line<br>
+{<br>
+&nbsp;&nbsp;color:red;<br>
+&nbsp;&nbsp;font-weight:bold;<br>
+}
+</div>
+
+<br>
+
+<h1>Pseudoelementy :before oraz :after</h1>
+
+<p>
+Pseudoelement <b>:before</b> służy do wstawiania treści przed zawartością elementu,
+natomiast <b>:after</b> służy do wstawiania treści po zawartości elementu.
+Do działania wymagają właściwości <b>content</b>.
+</p>
+
+<div style="border:1px solid black; padding:10px;">
+Przykład:<br><br>
+
+p:before<br>
+{<br>
+&nbsp;&nbsp;content:"*** ";<br>
+}<br><br>
+
+p:after<br>
+{<br>
+&nbsp;&nbsp;content:" ***";<br>
+}
+</div>
+
+<br>
+
+<h1>Pseudoelement :first-letter</h1>
+
+<p>
+Pseudoelement <b>:first-letter</b> pozwala formatować pierwszą literę akapitu.
+Jest często wykorzystywany do tworzenia ozdobnych inicjałów.
+</p>
+
+<div style="border:1px solid black; padding:10px;">
+Przykład:<br><br>
+
+:first-letter<br>
+{<br>
+&nbsp;&nbsp;font-size:40pt;<br>
+&nbsp;&nbsp;color:green;<br>
+}
+</div>
+
+</body>
+</html>
